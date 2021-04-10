@@ -36,7 +36,7 @@ function Header() {
 					<Link to="about">about</Link>
 				</li>
 				<li>
-					<Link href="/ga">gallery</Link>
+					<Link to="/ga">gallery</Link>
 				</li>
 				<li>
 					<Link to="/re">review</Link>
