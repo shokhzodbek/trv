@@ -1,0 +1,87 @@
+.contact {
+}
+.contact .row {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.contact .row .contact-info .box {
+	margin: 4rem 2rem;
+}
+.contact .row .contact-info h3 {
+	font-size: 2rem;
+	color: #333;
+	display: flex;
+	align-items: center;
+}
+.contact .row .contact-info h3 span {
+	margin-left: 0.5rem;
+}
+.contact .row .contact-info h3 .icon1 {
+	color: #0098a1;
+}
+.contact .row .contact-info p {
+	font-size: 1rem;
+	padding-left: 2.5rem;
+	color: #aaa;
+}
+
+.contact .row .form-container {
+	width: 50%;
+}
+.contact .row .form-container h3 {
+	font-size: 2rem;
+	padding: 4rem;
+	color: #0098a1;
+}
+
+.contact .row .form-container form input {
+	outline: none;
+	border: 0.1rem solid #0098a1;
+	height: 2.7rem;
+	background-color: white;
+	padding: 0 1rem;
+	margin: 1rem 0;
+	width: 100%;
+}
+
+.contact .row .form-container form textarea {
+	width: 100%;
+	padding: 1rem;
+	resize: none;
+
+	border: 0.1rem solid #0098a1;
+	background-color: white;
+	outline: none;
+	font-size: 1.5rem;
+}
+.contact .row .form-container form .btn {
+	color: #0098a1;
+	border: 2px solid #0098a1;
+	outline: none;
+	padding: 0.2rem;
+	cursor: pointer;
+	transition: 0.2s linear;
+	width: 6rem;
+	text-align: center;
+	font-size: 1.3rem;
+	background-color: transparent;
+	margin-bottom: 1rem;
+}
+
+.contact .row .form-container form .btn:hover {
+	background-color: turquoise;
+	color: white;
+}
+
+@media (max-width: 778px) {
+	.contact .row {
+		flex-flow: column;
+		align-items: flex-start;
+	}
+	.contact .row .form-container {
+		width: 90%;
+		margin: 0 auto;
+	}
+}

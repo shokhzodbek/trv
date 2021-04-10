@@ -1,0 +1,56 @@
+.review {
+	background: url('../../assets/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-blend-mode: multiply;
+}
+
+.review .heading {
+	color: white;
+	padding: 0 0 3rem 0;
+}
+
+.review .heading span {
+	color: gold;
+}
+.review .box-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.review .box-container .box {
+	width: 25rem;
+	margin: 4rem 4rem;
+	padding-bottom: 2rem;
+	text-align: center;
+	box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+	background-color: white;
+}
+.review .box-container .box .image {
+	margin-top: -2.8rem;
+}
+.review .box-container .box .image img {
+	height: 5rem;
+	width: 5rem;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 0.1rem solid rgb(238, 13, 13);
+}
+
+.review .box-container .box .content h3 {
+	font-size: 2rem;
+	color: #0098a1;
+}
+
+.review .box-container .box .content p {
+	font-size: 1rem;
+	color: #333;
+	padding: 0.5rem 1.5rem;
+}
+
+.review .box-container .box .card_star {
+	color: gold;
+	font-size: 1.2rem;
+	padding: 0.8rem 0.1rem;
+}

@@ -1,0 +1,98 @@
+.features {
+	min-height: 100vh;
+	background-color: #fff;
+}
+
+.heading {
+	color: #333;
+	font-size: 3rem;
+	padding: 1rem;
+	padding-top: 5rem;
+	text-align: center;
+	letter-spacing: 0.2rem;
+	text-transform: lowercase;
+	font-family: var(--font);
+}
+
+.heading span {
+	color: #0198a1;
+}
+
+.features .card_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.features .card_container .card {
+	width: 20rem;
+	margin: 2rem;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0rem 0.5rem rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	position: relative;
+}
+.features .card_container .card img {
+	height: 15rem;
+	width: 100%;
+	object-fit: cover;
+}
+
+.features .card_container .card .content {
+	padding-bottom: 1rem;
+	text-align: center;
+}
+
+.features .card_container .card .content .title {
+	color: aqua;
+	font-size: 2rem;
+}
+
+.features .card_container .card .content p {
+	color: #333;
+	font-size: 1rem;
+	padding: 1rem;
+}
+
+.features .card_container .card .content .card_star {
+	color: gold;
+	padding: 0 0.2rem;
+	font-size: 1.3rem;
+}
+
+.features .card_container .card .content .btn {
+	font-size: 1.1rem;
+	margin-top: 1rem;
+	height: 2.5rem;
+	width: 10rem;
+	border-radius: 30px;
+	outline: none;
+	background: #0198a1;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.2s linear;
+	border: 2px solid #0198a1;
+}
+
+.features .card_container .card .content .btn:hover {
+	background: none;
+	border: 2px solid #0198a1;
+	color: #0198a1;
+}
+
+.features .card_container .card .discount {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3rem;
+	width: 3rem;
+	background-color: #ff3300;
+	color: #fff;
+	font-size: 1rem;
+	border-radius: 50%;
+}
